@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fapce.caio.jogodavelha.GameActivity"
+    android:background="#ff4d94"
+    >
+
+    <TextView
+
+        android:text="BOM GAME :D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:textColor=" #ff0000"
+        android:background="#000000"
+        />
+
+
+
+
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt01"
+            android:onClick="buttonClick"/>
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt02"
+            android:onClick="buttonClick"/>
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt03"
+            android:onClick="buttonClick"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt04"
+            android:onClick="buttonClick"/>
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt05"
+            android:onClick="buttonClick"/>
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt06"
+            android:onClick="buttonClick"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt07"
+            android:onClick="buttonClick"/>
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt08"
+            android:onClick="buttonClick"/>
+        <Button
+            android:textSize="30pt"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="1pt"
+            android:layout_marginVertical="1pt"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/bt09"
+            android:onClick="buttonClick"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top">
+        <TextView
+            android:id="@+id/TextView00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="First Player"
+            android:layout_span="2"
+            android:padding="18dip"
+            android:background="#000000"
+            android:textColor="#ff0000"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/txtJogador1"
+            android:layout_width="179dp"
+            android:layout_height="73dp"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="18dip"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#000000"
+            android:padding="18dip"
+            android:text="Second Player"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtJogador2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="0"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:padding="18dip"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+
+
+    </TableRow>
+</TableLayout>

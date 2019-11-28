@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fapce.caio.jogodavelha.SqlActivity"
+    android:background="#ff4d94"
+    >
+
+
+    <Button
+        android:id="@+id/btnTodos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="60dp"
+        android:background="#000000"
+        android:onClick="lerTudo"
+        android:text="View All"
+        android:textColor=" #ff0000"
+        app:layout_constraintEnd_toStartOf="@+id/btnSair"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnScores"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="432dp"
+        android:background="#000000"
+        android:onClick="lerScores"
+        android:text="Read ScoreBoard"
+        android:textColor=" #ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTodos" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Exit"
+        android:textColor=" #ff0000"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTodos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnTodos"
+        app:layout_constraintTop_toTopOf="@+id/btnTodos" />
+
+    <TextView
+        android:id="@+id/txtUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="360dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnScores" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
